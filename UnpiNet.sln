@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UnpiNet", "UnpiNet\UnpiNet.shproj", "{9171BDB8-0914-44EC-B6C6-9226E7359A23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpiNet.core2.0", "UnpiNet.core2.0\UnpiNet.core2.0.csproj", "{937453DD-CA1D-493C-BD3F-902BDAF01E6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnpiNet.core2.0", "UnpiNet.core2.0\UnpiNet.core2.0.csproj", "{937453DD-CA1D-493C-BD3F-902BDAF01E6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpiNet.netstandard2.0", "UnpiNet.netstandard2.0\UnpiNet.netstandard2.0.csproj", "{9892EED8-83C6-424B-BA06-D52336367295}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnpiNet.netstandard2.0", "UnpiNet.netstandard2.0\UnpiNet.netstandard2.0.csproj", "{9892EED8-83C6-424B-BA06-D52336367295}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpiNet.net45", "UnpiNet.net45\UnpiNet.net45.csproj", "{EDD14D82-79F6-4BB9-BAFE-1B08974390CF}"
 EndProject
@@ -87,7 +87,6 @@ Global
 		{EDD14D82-79F6-4BB9-BAFE-1B08974390CF}.Release|x86.ActiveCfg = Release|Any CPU
 		{EDD14D82-79F6-4BB9-BAFE-1B08974390CF}.Release|x86.Build.0 = Release|Any CPU
 		{E01CBFA2-7CAA-4201-8917-139162C8B81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E01CBFA2-7CAA-4201-8917-139162C8B81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E01CBFA2-7CAA-4201-8917-139162C8B81F}.Debug|ARM.ActiveCfg = Debug|ARM
 		{E01CBFA2-7CAA-4201-8917-139162C8B81F}.Debug|ARM.Build.0 = Debug|ARM
 		{E01CBFA2-7CAA-4201-8917-139162C8B81F}.Debug|x64.ActiveCfg = Debug|x64

@@ -9,9 +9,12 @@
     <Import_RootNamespace>UnpiNet</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)StreamExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IUnpi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Unpi.uap.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MessageType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Packet.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SubSystem.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Unpi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Unpi.net.cs" />
   </ItemGroup>
 </Project>
