@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>UnpiNet</RootNamespace>
+    <AssemblyName>UnpiNet</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;NETCOREAPP2_0</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\UnpiNet\UnpiNet.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="BinarySerializer" Version="8.1.3" />
+    <PackageReference Include="System.IO.Ports" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

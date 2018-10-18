@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>9171bdb8-0914-44ec-b6c6-9226e7359a23</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>UnpiNet</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MessageType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Packet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SubSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Unpi.cs" />
+  </ItemGroup>
+</Project>
