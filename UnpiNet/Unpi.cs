@@ -25,7 +25,7 @@ namespace UnpiNet
     /// /***     SOF(1) + Length(2/1) + Type/Sub(1) + Cmd(1) + Payload(N) + FCS(1)                     ***/
     /// /*************************************************************************************************/
     /// </summary>
-#if NET
+
     public class Unpi : IUnpi
     {
         public SerialPort Port { get; set; }
@@ -66,6 +66,5 @@ namespace UnpiNet
             Port.Close();
         }
     }
-#endif
-  
+
 }
